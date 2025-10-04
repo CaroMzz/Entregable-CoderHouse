@@ -252,4 +252,67 @@ footer .social-icons img {
     padding: 1rem 2rem;
 }
 
+/* Exploremos */
+.hero{
+    background-image: url("/Imagenes/hero_exploremos.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.places {
+    text-align: center;
+    padding: 0.5rem 2rem;
+}
+
+.fav-places h2 {
+    margin-bottom: 1rem; 
+}
+
+.places .cards-places {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1.5rem; 
+    margin-bottom: 2rem; 
+}
+
+.places .card {
+    width: 18rem; 
+    border-radius: 15px;
+    background: #e3d7bf33;     
+    box-shadow: 0 4px 6px #e3d7bf;
+    text-align: left; 
+}
+
+.places .card-location {
+    margin-right: auto; 
+    width: 20px; 
+    height: 20px;
+}
+
+.places .card-title {
+    width: 100%; 
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.places .card-text {
+    width: 100%; 
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.places .card-link {
+    color: #4B3621;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.places .card-link:hover {
+    color: #735945;
+}
+
 
