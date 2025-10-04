@@ -241,3 +241,15 @@ footer .social-icons img {
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+.mission-vision {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.values {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+
