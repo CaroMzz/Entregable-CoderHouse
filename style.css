@@ -85,6 +85,23 @@ footer p {
     margin-top: 1rem;
 }
 
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    color: #4B3621;
+}
+
 /* Hero */
 .hero {
   text-align: center;
@@ -155,7 +172,11 @@ footer p {
     }
 
     .fav-places h2 {
-        margin-bottom: 2rem; 
+        margin-bottom: 1rem; 
+    }
+
+    .fav-places p {
+        margin-bottom: 0.5rem; 
     }
 
     .fav-places .cards-fav {
@@ -213,3 +234,10 @@ footer p {
         cursor: pointer;
     }
 
+/* Sobre Nosotros */
+.hero{
+    background-image: url("/Imagenes/hero_nosotros.jpeg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
