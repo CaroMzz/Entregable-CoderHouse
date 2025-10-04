@@ -4,11 +4,10 @@
 }
 
 body{
-    background-color: #f7f0e6;
+    background-color: #F5EBDD;
 }
 
 /* Header */
-
 nav {
     background-color: #EADAC8;
 }
@@ -61,7 +60,6 @@ nav .nav-link:hover {
 }
 
 /* Footer */
-
 footer {
     padding: 2rem 0;
     text-align: center;
@@ -86,3 +84,132 @@ footer p {
     color: #4B3621;
     margin-top: 1rem;
 }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Inicio */
+.hero{
+    background-image: url("/Imagenes/hero_inicio.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero-buttons button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  background: #735945e3;
+  cursor: pointer;
+}
+
+    /* Por qué elegirnos */
+    .why-us {
+        text-align: center;
+        padding: 3rem 2rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .card {
+        max-width: 300px;     
+        padding: 1.5rem;      
+        border-radius: 15px;
+        background: #e3d7bf33;     
+        box-shadow: 0 4px 6px #e3d7bf; 
+        text-align: center;
+        flex: 1 1 250px;     
+    }
+
+    /* Destinos destacados */
+    .fav-places {
+        text-align: center;
+        padding: 0.5rem 2rem;
+    }
+
+    .fav-places h2 {
+        margin-bottom: 2rem; 
+    }
+
+    .fav-places .cards-fav {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 1.5rem; 
+        margin-bottom: 2rem; 
+    }
+
+    .fav-places .card {
+        width: 18rem; 
+        border-radius: 15px;
+        background: #e3d7bf33;     
+        box-shadow: 0 4px 6px #e3d7bf;
+        text-align: left; 
+    }
+
+    .fav-places .card-location {
+        margin-right: auto; 
+        width: 20px; 
+        height: 20px;
+    }
+
+    .fav-places .card-title {
+        width: 100%; 
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .fav-places .card-text {
+        width: 100%; 
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .fav-places .card-link {
+        color: #4B3621;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .fav-places .card-link:hover {
+        color: #735945;
+    }
+
+    .fav-places button {
+        margin-top: 1rem; 
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 15px;
+        background: #735945e3;
+        cursor: pointer;
+    }
+
