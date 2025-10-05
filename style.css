@@ -384,3 +384,88 @@ footer .social-icons img {
     cursor: pointer;
     color: #2c1f15;
 }
+
+/* Contacto */
+.hero-contact{
+    background-image: url("/Imagenes/hero_contacto.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding: 8rem 2rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 3rem;
+  background-color: #F5EBDD;
+}
+
+.contact-form {
+  background-color: #F5EBDD;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px #e3d7bf;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-form label {
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #e3d7bf54;
+  border: 1px solid #e3d7bf;
+  border-radius: 10px;
+  color: #4B3621;
+}
+
+.contact-form button {
+  display: block;
+  margin: 1rem auto 0 auto;
+  padding: 0.8rem;
+  background: #735945e3;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-box {
+  background-color: #F5EBDD;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px #e3d7bf;
+  padding: 1rem;
+  text-align: center;
+}
+
+.info-box h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.info-box img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
