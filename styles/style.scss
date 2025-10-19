@@ -1,0 +1,18 @@
+@use 'header';
+@use 'footer';
+@use 'hero';
+@use 'pages/index';
+@use 'pages/aboutUs';
+@use 'pages/explore';
+@use 'pages/questions';
+@use 'pages/contact';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F5EBDD;
+}
+
