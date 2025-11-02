@@ -1,11 +1,11 @@
-@use 'header';
-@use 'footer';
-@use 'hero';
-@use 'pages/index';
-@use 'pages/aboutUs';
-@use 'pages/explore';
-@use 'pages/questions';
-@use 'pages/contact';
+@use './header.scss';
+@use './footer.scss';
+@use './hero.scss';
+@use './pages/index.scss';
+@use './pages/aboutUs.scss';
+@use './pages/explore.scss';
+@use './pages/questions.scss';
+@use './pages/contact.scss';
 
 *{
     margin: 0;

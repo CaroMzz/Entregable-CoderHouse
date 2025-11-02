@@ -1,5 +1,7 @@
+@use './variables.scss';
+
 nav {
-    background-color: #EADAC8;
+    background-color: variables.$color-principal;
     .nav-link {
     color: #4B3621;
     }
